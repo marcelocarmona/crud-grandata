@@ -47,7 +47,7 @@ Los tests estan escritos en ES6 y el testing stack es:
 <h3>UI Kit</h3>
 <p>Se utiliza <a href="https://material.angularjs.org/latest/" target="_blank">angular-material</a></p>
 <div class="images-container">
-    <img src="~common/images/screen1.png" alt="screen1">
-    <img src="~common/images/screen2.png" alt="screen2">
-    <img src="~common/images/tests.png" alt="tests">
+    <img src="http://marcelocarmona.com/crud-grandata/client/app/common/images/screen1.png" alt="screen1">
+    <img src="http://marcelocarmona.com/crud-grandata/client/app/common/images/screen2.png" alt="screen2">
+    <img src="http://marcelocarmona.com/crud-grandata/client/app/common/images/tests.png" alt="tests">
 </div>
