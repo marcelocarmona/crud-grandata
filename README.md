@@ -1,9 +1,9 @@
 <h3>Instalación</h3>
 <ol>
     <li>
-    <p><b><code>clone</code></b></li>
+    <p><b><code>git clone https://github.com/marcelocarmona/crud-grandata.git</code></b></li>
     <li>
-    <p><b><code>npm install o yarn install</code></b></li>
+    <p><b><code>npm install</code></b></li>
     <li>
     <p><b><code>npm start</code></b></li>
 </ol>
