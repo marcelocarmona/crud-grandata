@@ -1,0 +1,11 @@
+<md-content>
+  <md-list flex ng-if="$ctrl.user">
+    <md-list-item class="md-2-line" ng-repeat="(key, value) in $ctrl.user">
+      <div class="md-list-item-text">
+        <h3>{{key}}</h3>
+        <p>{{value}}</p>
+      </div>
+      <md-divider inset></md-divider>
+    </md-list-item>
+  </md-list>
+</md-content>

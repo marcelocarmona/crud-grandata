@@ -1,0 +1,83 @@
+.user-list-container{
+  margin: 0 30px;
+  top: -40px;
+  z-index: 2;
+}
+
+.list {
+  background: white;
+  z-index:50;
+}
+
+.select-a-user {
+  margin: 150px auto;
+  color: #ababab;
+
+  .arrow {
+    height: 45px;
+    background: url('~common/images/arrow.png');
+    background-size: 100px 35px;
+    background-repeat: no-repeat;
+    margin: 0 35px;
+  }
+
+  .text {
+    position: relative;
+    top: -11px;
+    left: 155px;
+    font-style: italic;
+    font-family: cursive;
+    font-size: 30px;
+    text-shadow: 1px 1px 1px white;
+  }
+}
+
+.add-a-user {
+  position: fixed;
+  bottom: 19px;
+  right: 111px;
+  color: #ababab;
+
+  .arrow {
+    height: 45px;
+    background: url('~common/images/arrow.png');
+    background-size: 100px 35px;
+    background-repeat: no-repeat;
+    transform: rotateY(180deg);
+  }
+
+  .text {
+    position: relative;
+    top: -14px;
+    left: -54px;
+    font-style: italic;
+    font-family: cursive;
+    font-size: 30px;
+    text-shadow: 1px 1px 1px white;
+  }
+}
+
+.add-user-btn {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  z-index: 1000;
+}
+
+.detail-view-container {
+  background: #e8e8e8;
+}
+
+// transition for the detail-view
+.detail-view {
+  background: #e8e8e8;
+  &.ng-enter {
+    transition: .5s;
+    transform: translateY(-30px);
+    opacity: 0;
+  }
+  &.ng-enter-active {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
