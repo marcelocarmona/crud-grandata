@@ -8,7 +8,7 @@ module.exports = {
   module: {
     loaders: [
        { test: /\.js$/, exclude: [/app\/lib/, /node_modules/], loader: 'ng-annotate!babel' },
-       { test: /\.html$/, loader: 'html-loader' },
+       { test: /\.html$/, loader: 'html' },
        { test: /\.(scss|sass)$/, loader: 'style!css!resolve-url!sass?sourceMap' },
        { test: /\.css$/, loader: 'style!css' },
        {

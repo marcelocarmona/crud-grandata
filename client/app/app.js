@@ -21,6 +21,6 @@ angular.module('app', [
   .config(($locationProvider) => {
     "ngInject";
     // html5Mode
-    $locationProvider.html5Mode(true).hashPrefix('!');
+    // $locationProvider.html5Mode(true).hashPrefix('!');
   })
   .component('app', AppComponent);
